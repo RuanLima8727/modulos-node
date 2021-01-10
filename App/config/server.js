@@ -10,8 +10,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 consign()
 .include('././app/routes') 
-.then('././app/config/database.js')///FUNCIONANDO, MAS PORQUE ESSES CAMINHOS ESTÃO ASSIM?
-.then('././app/models')
+.then('././app/config/database.js')
 .into(app);
 
 module.exports = app;
