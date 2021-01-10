@@ -8,4 +8,4 @@ Código de um servidor node criado com a arquitetura MVC, que faz uso dos princi
   <li>MySql</li>
   <li>Ejs</li>
 </ul>
-<img src="servidorOn.png">
+<img src="./servidorOn.PNG">
